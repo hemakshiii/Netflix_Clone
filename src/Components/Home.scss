@@ -115,3 +115,34 @@
     font-family: sans-serif;
     font-weight: 100px;
 }
+
+@media (max-width: 768px) {
+  .banner {
+    height: auto;
+    padding: 1.5rem;
+  }
+
+  .banner h1 {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+
+  .banner p {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .banner div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .banner button {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .card {
+    width: 140px;
+  }
+}

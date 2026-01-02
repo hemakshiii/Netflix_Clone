@@ -31,5 +31,19 @@
   }
  }
  
- 
+ @media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .navbar > div {
+    display: none;
+  }
+
+  .navbar img {
+    height: 40px;
+  }
+}
+
  

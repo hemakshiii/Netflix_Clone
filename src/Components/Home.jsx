@@ -105,7 +105,8 @@ function Home() {
       "none"
      }}>
      {popular[2] && <h1>{popular[2].original_title}</h1>}
-     {popular[2] && <p>{popular[2].overview}</p>}
+     {popular[2] && <p>{popular[2].overview.length > 200 ? popular[2].overview.slice(0, 200) + "..." : popular[2].overview}</p>}
+
      
      <div>
 
